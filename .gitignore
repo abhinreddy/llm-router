@@ -1,0 +1,30 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+
+# Environment — never commit secrets
+.env
+
+# Database — generated at runtime
+data/router_logs.db
+
+# Trained ML model binaries — regenerate with scripts/train_classifier.py
+models/*.joblib
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
